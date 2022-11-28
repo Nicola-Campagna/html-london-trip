@@ -5,49 +5,58 @@
     <title>London Trip</title>
 </head>
 <body>
+    <!-- INTESTAZIONE -->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
-        <img src="./img/img/pexels-bill-emrich-230794-0.jpg" alt="ruota panoramica illuminata di viola">
-        <img src="./img/img/pexels-bill-emrich-230794-1.jpg" alt="continua del panorama">
-        <img src="./img/img/pexels-bill-emrich-230794-2.jpg" alt="continua del panorama e Big Ben">
+        <picture>
+            <img src="./img/img/pexels-bill-emrich-230794-0.jpg" alt="panorama Londra 1">
+            <img src="./img/img/pexels-bill-emrich-230794-1.jpg" alt="panorama Londra 2">
+            <img src="./img/img/pexels-bill-emrich-230794-2.jpg" alt="panorama Londra 3">
+        </picture>
         <hr />
     </header>
     <main>
-        <!-- FIRST SECTION -->
+        <!--  SEZIONE SPESE -->
         <section>
             <h2>Le mie spese</h2>
             <table>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto aereo</td>
-                    <td>120£</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto aereo</td>
-                    <td>120£</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto aereo</td>
-                    <td>120£</td>
-                </tr>
-                <tr>
-                    <td>Totale</td>
-                    <td></td>
-                    <td>360£</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120£</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120£</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120£</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Totale</td>
+                        <td></td>
+                        <td>360£</td>
+                    </tr>
+                </tfoot>
             </table>
             <hr />
         </section>
-        <!-- SECOND SECTION -->
+        <!-- SEZIONE COSA DA FARE -->
         <section>
-            <h2>Cose da fare</h2>
+            <h3>Cose da fare</h3>
             <ul>
                 <li>Visitare la Tower of London  &#10008;</li>
                 <li>Visitare Greenwich &#10004;</li>
@@ -56,9 +65,9 @@
             </ul>
             <hr />
         </section>
-        <!-- THIRD SECTION -->
+        <!-- SEZIONE INFO UTILI -->
         <section>
-            <h2>Info utili</h2>
+            <h3>Info utili</h3>
             <ol>
                 <li>
                     Numeri utili di emergenza
@@ -85,11 +94,14 @@
             </ol>
             <hr />
         </section>
-    </main>
-    <footer>
-        <h3>Foto</h3>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Londra">
-        <img src="https://thetraveljam.com/wp-content/uploads/2020/01/DSC01329-400x400.jpeg" alt="locale Coach & Horses">
-    </footer>  
+        <!-- SEZIONE FOTO -->
+        <section>
+            <h3>Foto</h3>
+            <picture>
+                <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Londra">
+                <img src="https://thetraveljam.com/wp-content/uploads/2020/01/DSC01329-400x400.jpeg" alt="ristorante Londra"> 
+            </picture>
+        </section>
+    </main>  
 </body>
 </html>
